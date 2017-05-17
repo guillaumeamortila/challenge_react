@@ -1,0 +1,55 @@
+body{
+	margin: 40px;
+	font-family: "arial";
+}
+
+h1{
+	margin-bottom: 25px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+form > *{
+	margin-bottom: 5px;
+}
+
+#bro > p:first-child{
+	color: #AAA;
+	font-size: 0.86em;
+	font-style: italic;
+	font-weight: lighter;
+	margin-bottom: 3px;
+}
+
+#bro > p:last-child{
+	margin-top: 3px;
+}
+
+#lbltitle{
+	margin: 20px 0px 10px 0px;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+button{
+	padding: 6px;
+	font-size: 1.2em;
+	color: #999;
+	border-radius: 40px;
+	background-color: #EEE;
+	border: solid 1px #DDD;
+	outline: none;
+	transition-duration: 0.13s;
+}
+
+button:hover{
+	padding: 4px 6px 8px 6px;
+	background-color: #EEF;
+	border: solid 1px #DDE;
+	color: #AAB;
+	cursor: pointer;
+}
+
